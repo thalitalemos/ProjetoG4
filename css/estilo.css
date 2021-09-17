@@ -1,0 +1,94 @@
+
+
+.caixa {
+  padding: 60px 0;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  }
+
+  @font-face {
+
+      font-family: Tangiang;
+      src: url("Tangiang.woff");
+    }
+
+    .f1 {
+
+      font-size: 1.2em;
+      font-family: Tangiang;
+
+    }
+
+
+
+
+  @media (min-width: 276px) and  (max-width: 375.98px) {
+      
+    .painel {
+    
+          padding-left: 80px
+
+   }
+  }
+
+   @media (min-width: 376px) and  (max-width: 475.98px) {
+      
+   .painel {
+    
+     padding-left: 110px
+  }
+
+  }
+
+
+    @media (min-width: 476px) and  (max-width: 575.98px) {
+      
+    .painel {
+    
+     padding-left: 140px
+  }
+
+
+  }
+
+  /*/ Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .painel {
+    
+    padding-left:160px
+  }
+
+
+  }
+
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .painel {
+    
+    padding-left:100px
+  }
+
+
+  }
+
+  /*// Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .painel {
+
+    padding-left:200px
+  }
+
+  }
+
+  /*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+
+     .painel {
+    
+   padding-left:215px
+  }
+
+  }
